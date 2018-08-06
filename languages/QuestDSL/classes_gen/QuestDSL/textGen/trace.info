@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="15,0,53,0" name="QuestDSL.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:c297900a-6217-42e4-b1e7-f527ec8b77bb(QuestDSL.textGen)/2957986029903270172">
+    <file name="Question_TextGen.java">
+      <node id="2957986029903270172" at="15,54,16,55" concept="3" />
+      <node id="2957986029903270172" at="16,55,17,22" concept="0" />
+      <node id="2957986029903270172" at="17,22,18,183" concept="0" />
+      <node id="2957986029903270172" at="18,183,19,23" concept="0" />
+      <node id="2957986029903270172" at="19,23,20,18" concept="0" />
+      <node id="2957986029903270172" at="20,18,21,23" concept="0" />
+      <node id="2957986029903270172" at="21,23,22,18" concept="0" />
+      <node id="2957986029903288170" at="23,216,24,27" concept="0" />
+      <node id="2957986029903270172" at="25,5,26,24" concept="0" />
+      <node id="2957986029903270172" at="26,24,27,18" concept="0" />
+      <node id="2957986029903288170" at="22,18,25,5" concept="1" />
+      <node id="2957986029903270172" at="14,0,29,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="2957986029903288170" at="23,216,24,27" />
+      <scope id="2957986029903288170" at="22,18,25,5">
+        <var name="item" id="2957986029903288170" />
+      </scope>
+      <scope id="2957986029903270172" at="15,54,27,18">
+        <var name="tgs" id="2957986029903270172" />
+      </scope>
+      <scope id="2957986029903270172" at="14,0,29,0">
+        <var name="ctx" id="2957986029903270172" />
+      </scope>
+      <unit id="2957986029903270172" at="13,0,30,0" name="QuestDSL.textGen.Question_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:c297900a-6217-42e4-b1e7-f527ec8b77bb(QuestDSL.textGen)/2957986029903289783">
+    <file name="PossibleAnswer_TextGen.java">
+      <node id="2957986029903289783" at="13,54,14,55" concept="3" />
+      <node id="2957986029903289783" at="14,55,15,23" concept="0" />
+      <node id="2957986029903289783" at="15,23,16,183" concept="0" />
+      <node id="2957986029903289783" at="16,183,17,24" concept="0" />
+      <node id="2957986029903289783" at="17,24,18,18" concept="0" />
+      <node id="2957986029903289783" at="12,0,20,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="2957986029903289783" at="13,54,18,18">
+        <var name="tgs" id="2957986029903289783" />
+      </scope>
+      <scope id="2957986029903289783" at="12,0,20,0">
+        <var name="ctx" id="2957986029903289783" />
+      </scope>
+      <unit id="2957986029903289783" at="11,0,21,0" name="QuestDSL.textGen.PossibleAnswer_TextGen" />
+    </file>
+  </root>
+  <root nodeRef="r:c297900a-6217-42e4-b1e7-f527ec8b77bb(QuestDSL.textGen)/3518637167173919229">
+    <file name="Poll_TextGen.java">
+      <node id="3518637167173919229" at="15,54,16,55" concept="3" />
+      <node id="3518637167173919229" at="16,55,17,25" concept="0" />
+      <node id="3518637167173919229" at="17,25,18,18" concept="0" />
+      <node id="3518637167173919229" at="18,18,19,25" concept="0" />
+      <node id="3518637167173919229" at="19,25,20,18" concept="0" />
+      <node id="3518637167173919229" at="20,18,21,26" concept="0" />
+      <node id="3518637167173919229" at="21,26,22,183" concept="0" />
+      <node id="3518637167173919229" at="22,183,23,27" concept="0" />
+      <node id="3518637167173919229" at="23,27,24,26" concept="0" />
+      <node id="3518637167173919229" at="24,26,25,18" concept="0" />
+      <node id="3518637167173919229" at="25,18,26,25" concept="0" />
+      <node id="3518637167173919229" at="26,25,27,18" concept="0" />
+      <node id="2957986029903261541" at="28,211,29,27" concept="0" />
+      <node id="3518637167173919229" at="30,5,31,26" concept="0" />
+      <node id="3518637167173919229" at="31,26,32,18" concept="0" />
+      <node id="2957986029903310142" at="32,18,33,26" concept="0" />
+      <node id="2957986029903261541" at="27,18,30,5" concept="1" />
+      <node id="3518637167173919229" at="14,0,35,0" concept="2" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="2957986029903261541" at="28,211,29,27" />
+      <scope id="2957986029903261541" at="27,18,30,5">
+        <var name="item" id="2957986029903261541" />
+      </scope>
+      <scope id="3518637167173919229" at="15,54,33,26">
+        <var name="tgs" id="3518637167173919229" />
+      </scope>
+      <scope id="3518637167173919229" at="14,0,35,0">
+        <var name="ctx" id="3518637167173919229" />
+      </scope>
+      <unit id="3518637167173919229" at="13,0,36,0" name="QuestDSL.textGen.Poll_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="668479451213771471" at="49,59,50,18" concept="4" />
+    </file>
+  </root>
+</debug-info>
+
